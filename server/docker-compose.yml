@@ -1,0 +1,10 @@
+services:
+  weather-app:
+    build: .
+    ports:
+      - "5271:5271"
+    env_file:
+      - ./.env
+    volumes:
+      - .:/usr/src/app
+    command: npm start

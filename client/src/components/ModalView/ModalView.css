@@ -1,0 +1,9 @@
+.region-chip {
+    color: white;
+}
+
+.error {
+    color: rgb(118, 21, 21);
+    padding: 3px;
+
+}

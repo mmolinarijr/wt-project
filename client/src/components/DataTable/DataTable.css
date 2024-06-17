@@ -1,0 +1,16 @@
+.data-table {
+    font-family: "Figtree", sans-serif;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.clickable-text {
+    text-decoration: none;
+}
+
+.clickable-row:hover .clickable-text {
+    color: royalblue;
+    text-decoration: underline;
+}
